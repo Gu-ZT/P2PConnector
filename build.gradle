@@ -17,3 +17,10 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'dev.dubhe.p2p.P2PConnector'
+    }
+}
+
